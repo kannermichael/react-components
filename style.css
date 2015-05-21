@@ -1,0 +1,139 @@
+.topbar {
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+		.topbar {
+			display: flex;
+			flex-direction: column;
+		}
+	}
+
+.logo {
+	max-width: 100px;
+}
+
+.published {
+	display: flex;
+}
+
+.publishedin {
+	margin-top: 20px;
+}
+
+.publishedout {
+	margin-bottom: 200px;
+}
+
+.little {
+	margin-top: 30px;
+}
+
+.littletext {
+	display: flex;
+	flex-direction: column;
+}
+
+.signup {
+	width: 100px;
+	height: 20px;
+	border: 1px solid green;
+	border-radius: 100px 100px 100px 100px;
+	color: green;
+	text-align: center;
+	margin-top: 39px;
+	margin-left: 5px;
+}
+
+.resize {
+	font-size: 12px;
+}
+
+.bar {
+	width: 150px;
+	height: 50px;
+	margin: auto;
+}
+
+.searchbar {
+	display: flex;
+	align-items: center;
+}
+
+.title {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.embedded {
+	width: 60%;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+p {
+	font-size: 22px;
+}
+
+.topright {
+	display: flex;
+}
+
+.line {
+	border-left: solid black;
+	float:left;
+	margin-left: -20px;
+	padding-left: 15px;
+}
+
+.components {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.gray {
+	width: 100%;
+	height: 400px;
+	margin: 0;
+	background: gray;
+	color: white;
+	padding: 20px 0 50px 50px;
+}
+
+.conclu {
+	width: 60%;
+	margin: 0 auto;
+}
+
+a {
+	color: green;
+}
+
+.recommend {
+	width: 100%;
+	padding: 0 10px 0 16px;
+	position: fixed;
+	display: block;
+	bottom: 0;
+	height: 100px;
+	box-sizing: border-box;
+}
+
+.marlena {
+	font-size: 8px;
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+}
